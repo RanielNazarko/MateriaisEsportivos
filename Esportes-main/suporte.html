@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suporte | Arena Prime Sports</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="suporte">
+
+  <header class="header">
+    <div class="header-top">
+      <a href="index.html" class="logo">
+        <img src="img/logo.jpg" alt="Arena Prime Sports" class="logo-img">
+        <span class="logo-text">Arena <span>Prime</span></span>
+      </a>
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" class="search-input" placeholder="Buscar produtos... ex: camiseta do flamengo">
+      </div>
+      <div class="header-actions">
+        <a href="carrinho.html" class="btn-icon">
+          🛒 Carrinho
+          <span class="cart-count" style="display:none;">0</span>
+        </a>
+        <a href="suporte.html" class="btn-icon">💬 Suporte</a>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item">
+          <a href="masculino.html" class="nav-link">Masculino ▾</a>
+          <div class="dropdown">
+            <a href="masculino.html">Todos os produtos</a>
+            <a href="masculino.html">Camisetas</a>
+            <a href="masculino.html">Chuteiras</a>
+            <a href="masculino.html">Meiões</a>
+            <a href="masculino.html">Bolas</a>
+            <a href="masculino.html">Luvas</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="feminino.html" class="nav-link">Feminino ▾</a>
+          <div class="dropdown">
+            <a href="feminino.html">Todos os produtos</a>
+            <a href="feminino.html">Camisetas</a>
+            <a href="feminino.html">Chuteiras</a>
+            <a href="feminino.html">Meiões</a>
+            <a href="feminino.html">Shorts</a>
+            <a href="feminino.html">Tops</a>
+          </div>
+        </li>
+        <li class="nav-item"><a href="carrinho.html" class="nav-link">Carrinho</a></li>
+        <li class="nav-item"><a href="suporte.html" class="nav-link">Suporte</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <h1>Suporte & Contato</h1>
+      <p>Estamos aqui para ajudar. Envie sua mensagem ou use um dos canais abaixo.</p>
+    </div>
+
+    <div class="support-grid">
+      <div class="support-card">
+        <h2>📨 Envie uma mensagem</h2>
+        <form id="support-form">
+          <div class="form-group">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required placeholder="seu@email.com">
+          </div>
+          <div class="form-group">
+            <label for="assunto">Assunto</label>
+            <select id="assunto" name="assunto" required>
+              <option value="">Selecione...</option>
+              <option value="pedido">Dúvida sobre pedido</option>
+              <option value="produto">Informação de produto</option>
+              <option value="troca">Troca / Devolução</option>
+              <option value="pagamento">Pagamento</option>
+              <option value="outro">Outro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" required placeholder="Descreva seu problema ou dúvida..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary" style="width:100%; justify-content:center;">Enviar mensagem</button>
+        </form>
+      </div>
+
+      <div class="support-card">
+        <h2>📞 Outros canais</h2>
+        <ul class="contact-info">
+          <li>
+            <div class="contact-icon">📧</div>
+            <div>
+              <strong>E-mail</strong><br>
+              suporte@arenafc.com.br<br>
+              <small>Resposta em até 24h úteis</small>
+            </div>
+          </li>
+          <li>
+            <div class="contact-icon">📱</div>
+            <div>
+              <strong>WhatsApp / Telefone</strong><br>
+              (11) 99999-0000<br>
+              <small>Seg–Sáb, 9h às 18h</small>
+            </div>
+          </li>
+          <li>
+            <div class="contact-icon">📍</div>
+            <div>
+              <strong>Endereço</strong><br>
+              Rua do Futebol, 123<br>
+              São Paulo – SP, 01000-000
+            </div>
+          </li>
+          <li>
+            <div class="contact-icon">❓</div>
+            <div>
+              <strong>Perguntas frequentes</strong><br>
+              Frete grátis acima de R$ 300<br>
+              Trocas em até 30 dias<br>
+              Produtos originais garantidos
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <h4>Arena Prime Sports</h4>
+        <p>A loja especializada em acessórios de futebol. Qualidade, autenticidade e paixão pelo esporte.</p>
+      </div>
+      <div>
+        <h4>Links rápidos</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="masculino.html">Masculino</a></li>
+          <li><a href="feminino.html">Feminino</a></li>
+          <li><a href="suporte.html">Suporte</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Atendimento</h4>
+        <ul>
+          <li>📧 suporte@arenafc.com.br</li>
+          <li>📱 (11) 99999-0000</li>
+          <li>🕒 Seg–Sáb: 9h–18h</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 Arena Prime Sports — Protótipo escolar. Todos os direitos reservados.
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
